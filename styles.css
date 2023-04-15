@@ -92,6 +92,13 @@
 
 .product-rating{
  margin-top: 20px;
+ display: flex;
+ align-items: center;
+}
+
+.product-rating p{
+ margin-left: 10px;
+ font-size: 12px;
 }
 
 .add-to-cart{
@@ -104,6 +111,5 @@
  border-radius: 20px;
  background-color: #ffa500;
 }
-
 
 /*--------------------------------------------------*/
