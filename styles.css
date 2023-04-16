@@ -112,6 +112,10 @@
  font-weight: 600;
 }
 
+.product-rating i{
+ color: #fbff00;
+}
+
 .product-rating{
  margin-top: 20px;
  display: flex;
@@ -124,6 +128,7 @@
 }
 
 .add-to-cart{
+ position: relative;
  font-weight: 600;
  margin: 30px;
  width: 200px;
@@ -133,10 +138,31 @@
  border-radius: 20px;
  background-color: rgba(40, 40, 40, 0.8);
  transition: all 0.5s ease-in-out;
+ overflow: hidden;
  cursor: pointer;
 }
 
+.add-to-cart p{
+ color: #fff;
+ width: max-content;
+ margin: 0 auto;
+ transition: all 0.5s ease-in-out;
+}
+
+.add-to-cart i{
+ color: #fff;
+ display:block;
+ position: absolute;
+ left: 116px;
+ top: 16px;
+ transition: all 0.5s ease-in-out;
+ opacity:0;
+}
+
+
+
 /*--------------------------------------------------*/
+
 
 
 /*--------------------HOVER------------------------*/
@@ -151,6 +177,15 @@
 
 .add-to-cart:hover{
  background-color: #ffa500;
+}
+
+.add-to-cart:hover p{
+ transform:translateX(-20px);
+}
+
+.add-to-cart:hover i{
+ transform:translateX(12px);
+ opacity:100;
 }
 
 
