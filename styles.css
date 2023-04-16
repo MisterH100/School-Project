@@ -21,6 +21,7 @@
 
 .logo{
   padding: 20px 0 20px 100px;
+  transition: all 0.3s ease-in-out;
 }
 
 .shape{
@@ -140,6 +141,9 @@
 
 /*--------------------HOVER------------------------*/
 
+.logo:hover{
+ transform: scale(1.1);
+}
 .list-item:hover{
  border-color: #ffa500;
  color: #ffa500;
