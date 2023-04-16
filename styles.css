@@ -50,7 +50,9 @@
 }
 
 .list-item{
- height: 20vh;
+ border-bottom: solid 2px transparent;
+ /*height: 20vh;*/
+ padding: 16px;
  display: flex;
  align-items: center;
 }
@@ -133,7 +135,7 @@
 /*--------------------HOVER------------------------*/
 
 .list-item:hover{
- border-bottom: solid 2px #ffa500;
+ border-color: #ffa500;
  color: #ffa500;
 }
 
