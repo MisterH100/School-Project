@@ -20,10 +20,11 @@
 }
 
 .logo{
-  padding: 20px;
+  padding: 20px 0 20px 100px;
 }
 
 .shape{
+ position: relative;
  width: 100px;
  height: 100px;
  border-radius: 10%;
@@ -32,11 +33,15 @@
  background-position: center;
 }
 
-.shape h2{
+.shape a{
+ position: absolute;
+ width: 100px;
+ height: 100px;
+ padding: 60px 0 0 30px;
  font-family: 'Bebas Neue', cursive;
+ text-decoration: none;
  color: #fff;
- text-align: center;
- padding-top: 60px;
+ cursor: pointer;
 }
 
 .nav-list{
@@ -50,7 +55,8 @@
 }
 
 .list-item{
- height: 20vh;
+ padding: 52px 0;
+ border-bottom: solid 2px transparent;
  display: flex;
  align-items: center;
 }
@@ -124,7 +130,9 @@
  border: none;
  outline: none;
  border-radius: 20px;
- background-color: #ffa500;
+ background-color: rgba(40, 40, 40, 0.8);
+ transition: all 0.5s ease-in-out;
+ cursor: pointer;
 }
 
 /*--------------------------------------------------*/
@@ -133,17 +141,15 @@
 /*--------------------HOVER------------------------*/
 
 .list-item:hover{
- border-bottom: solid 2px #ffa500;
+ border-color: #ffa500;
  color: #ffa500;
 }
 
-.card-image:hover{
- transform: scale(0.9);
+.add-to-cart:hover{
+ background-color: #ffa500;
 }
 
 
+
 /*-----------------------------------------------------*/
-
-/*---------------DARK MODE-----------------------------*/
-
 
