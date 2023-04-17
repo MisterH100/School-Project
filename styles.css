@@ -48,6 +48,7 @@
  border-bottom: solid 2px transparent;
  display: flex;
  align-items: center;
+ transition: all 0.2s ease-in-out;
 }
 
 /*--------------------------------------------------*/
@@ -157,23 +158,24 @@
 }
 
 .list-item:hover{
- border-color: #ffa500;
- color: #ffa500;
+ border-color:  #FF2020;
+ color:  #FF2020;
 }
 
 .add-to-cart:hover{
- background-color: #ffa500;
+ background-color: #FF2020;
 }
 
 .add-to-cart:hover p{
  color: #fff;
- transform:translateX(-24px);
-}
+ transform: translateX(-24px);
+ }
 
-.add-to-cart:hover i{
- transform:translateX(24px);
- opacity:100;
-}
+ .add-to-cart:hover i{
+ transform: translateX(24px);
+ opacity: 100;
+ }
+
 
 
 
