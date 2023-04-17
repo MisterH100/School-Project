@@ -5,49 +5,37 @@
  font-family: Verdana , sans-serif;
 }
 
+
 /*----------------NAV BAR-------------------*/
 
 .nav{
- position: absolute;
- z-index: 2;
+ position: relative;
+ left: 1px;
+ top: -6px;
  padding: 10px;
  width: 100%;
- height: 20vh;
- background-color: #fff;
+ height: 142px;
+ background: #FFFFFF;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
  display: flex;
+ justify-content: space-between;
  align-items: center;
- box-shadow: 0 4px 8px rgba(20, 20, 20, 0.5);
 }
 
 .logo{
-  padding: 20px 0 20px 100px;
+  padding: 41px 158px;
   transition: all 0.3s ease-in-out;
 }
 
-.shape{
- position: relative;
- width: 100px;
- height: 100px;
- border-radius: 10%;
- background-image: url('images/logo3.jpeg');
- background-size: cover;
- background-position: center;
+.logo img{
+ width: 88px;
+ height: 60px;
 }
 
-.shape a{
- position: absolute;
- width: 100px;
- height: 100px;
- padding: 60px 0 0 30px;
- font-family: 'Bebas Neue', cursive;
- text-decoration: none;
- color: #fff;
- cursor: pointer;
-}
 
 .nav-list{
+ padding-right: 158px;
  height: 20vh;
- margin-left: 60%;
  list-style: none;
  display: flex;
  align-items: center;
@@ -56,7 +44,7 @@
 }
 
 .list-item{
- padding: 52px 0;
+ padding: 62px 0;
  border-bottom: solid 2px transparent;
  display: flex;
  align-items: center;
@@ -67,7 +55,7 @@
 /*-------------------BODY--------------------------*/
 
 .container{
- padding-top: 150px;
+ margin-top: 10px;
  width: 100%;
  height: 100vh;
  background-color: #fff;
@@ -79,9 +67,9 @@
 
 .card{
  padding-top: 10px;
- width: 300px;
- height: auto;
- border-radius: 8%;
+ width: 346px;
+ height: 500px;
+ border-radius: 20px;
  border: solid 1px rgba(20, 20, 20, 0.5);
  background-color: #fff;
  display: flex;
@@ -89,16 +77,10 @@
  flex-direction: column;
 }
 
-.card-image{
- width: 270px;
- height: 230px;
- border-radius: 10px;
- overflow: hidden;
-}
 
 .card-image img{
- width: 280px;
- height: 240px;
+ width: 225px;
+ height: 225px;
  transition: all 2s ease-in-out;
 }
 
@@ -119,6 +101,7 @@
 .product-rating{
  margin-top: 20px;
  display: flex;
+ width: 200px;
  align-items: center;
 }
 
@@ -130,20 +113,20 @@
 .add-to-cart{
  position: relative;
  font-weight: 600;
- margin: 30px;
- width: 200px;
- height: 60px;
+ margin: 20px auto 10px;
+ width: 242px;
+ height: 66px;
  border: none;
  outline: none;
  border-radius: 20px;
- background-color: rgba(40, 40, 40, 0.8);
+ background-color: #D9D9D9;
  transition: all 0.5s ease-in-out;
  overflow: hidden;
  cursor: pointer;
 }
 
 .add-to-cart p{
- color: #fff;
+ color: #000;
  width: max-content;
  margin: 0 auto;
  transition: all 0.5s ease-in-out;
@@ -154,7 +137,7 @@
  display:block;
  position: absolute;
  left: 116px;
- top: 16px;
+ top: 20px;
  transition: all 0.5s ease-in-out;
  opacity:0;
 }
@@ -167,9 +150,12 @@
 
 /*--------------------HOVER------------------------*/
 
-.logo:hover{
- transform: scale(1.1);
+
+
+.logo:hover{ 
+ transform: scale(0.9);
 }
+
 .list-item:hover{
  border-color: #ffa500;
  color: #ffa500;
@@ -180,13 +166,17 @@
 }
 
 .add-to-cart:hover p{
- transform:translateX(-20px);
+ color: #fff;
+ transform:translateX(-24px);
 }
 
 .add-to-cart:hover i{
- transform:translateX(12px);
+ transform:translateX(24px);
  opacity:100;
 }
+
+
+
 
 
 
