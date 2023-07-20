@@ -7,6 +7,7 @@ design a Figma webpage (school-project)
 ##Technologies Used
 -HTML5
 -CSS3
+-Java Script
 
 ##How to run the project
 -CLone the project into your local enviroment.
